@@ -1,1 +1,1 @@
-# spacenet-cop.github.io
+# SpaceNet Community-of-Practice
