@@ -1,1 +1,0 @@
-# SpaceNet Community-of-Practice
