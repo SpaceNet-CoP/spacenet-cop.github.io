@@ -5,21 +5,45 @@ title: Home
 
 <span style="border:1px solid red;padding:5px;">This site is currently under active development. All content is subject to change.</span>
 
-Low-Earth orbit (LEO) satellite networks (LSNs) have emerged as a major focus of networking research.
-However, unlike traditional networking research, most LSN research cannot be validated against accessible real-world infrastructure.
-Due to this, researchers rely heavily on simulation frameworks and implicit modeling assumptions.
-This creates a inherent **risk that proposed systems may satisfy networking objectives but violate constraints from orbital dynamics or space-environment realities**, leading to results that are physically infeasible or operationally irrelevant.
+# The Short Story
 
-**The goal of this website is to establish a community-of-practice initiative to help ground LSN research in the realities of orbital mechanics and space physics.**
-Concretely, we establish the following principles that LSN research should strive to abide by---regardless of what assumptions or simulations are utilized---in order to maintain alignment with realities of space operations.
+Space-based infrastructure such as LEO satellite networks (LSNs) have emerged as a major focus of networking research.
+
+Pushing the frontier beyond current commercial deployments requires navigating a much larger problem space, including a wide range of space mission planning constraints that are presently not familiar to the networking community.
+
+This website aims to provide a community-driven repository of these _outside intuitions_ that networking research must keep in mind when considering space-based infrastructure.
+
+# Call for Contributions
 
 This website is open-source and we encourage you to add your perspective and expertise by submitting [pull requests](https://github.com/SpaceNet-CoP/spacenet-cop.github.io/pulls) and [issues](https://github.com/SpaceNet-CoP/spacenet-cop.github.io/issues) or by joining discussion on existing threads.
-Something important the community is missing? Submit a pr!
-Something this website gets totally (or just slightly) wrong? Submit an issue!
+A non-exhaustive list of thing you should consider contributing:
+
+* New "principles" that the community should consider.
+
+* Refinements to existing principles to correct false arguments, add a nuanced perspective, or extend the scope of existing arguments.
+
+* Citations to your papers, other relevant papers you think are missing, and other relevant and useful resources across the web.
+
+
+
+# The Long Story
+
+Research involving space-based infrastructure requires navigating a wide range of space mission analysis and design considerations: for example, space physics, space craft engineering, launch constraints, etc.
+
+It is typically not feasible for researchers to validate proposals for space-based systems against real-world infrastructure, especially as the research community continues to push beyond the particular designs of today's commercial deployments.
+
+Due to this, researchers rely heavily on simulation frameworks and implicit modeling assumptions.
+This creates a inherent methodological risk that proposed systems may satisfy networking objectives but **violate constraints faced by real-world space missions**, leading to _illusory_ results that are physically infeasible or operationally irrelevant.
+
+**The goal of this website is to provide a centralized hub connecting networking researchers with the realities of space-based infrastructure.**
+Concretely, we assemble the following principles that researchers should strive to abide by---regardless of what assumptions or simulations are utilized---in order to maintain alignment with the reality of space operations.
+
+By assembling these principles as an open-source website, we aim to encourage on-going debate and refinement as well as continuous updates as space technologies progresses.
+
 
 # The Principles
 
-[**Avoiding Collisions**](principles/collisions.html)
+[**Avoid Collisions**](principles/collisions.html)
 <br/>
 We should be sure satellites in the same constellation will not collide with each other.
 
@@ -42,3 +66,7 @@ LSN operations should account for costs and constraints of incrementally launchi
 [**Orbital Dynamics**](principles/dynamics.html)
 <br/>
 We should be sure that satellites are where we want them to be when we want them to be there over the LSN's full lifetime.
+
+[**Thermal Dynamics**](principles/thermal.html)
+<br/>
+Thinking about temperature in the near vacuum of space requires going beyond Earth-based intuitions about "hot" and "cold".
