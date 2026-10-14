@@ -37,3 +37,9 @@ body {
     text-align: justify;
     font-family: 'Hyperlegible Sans', Calibri, sans-serif;
 }
+
+@media screen and (max-width: 660px) {
+    body {
+        text-align: left;
+    }
+}
