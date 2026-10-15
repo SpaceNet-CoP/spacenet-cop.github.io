@@ -85,7 +85,7 @@ Thinking about temperature in the near vacuum of space requires going beyond Ear
 
 # The Bibliography
 
-We are curating a bibliography of relevant material cited throughout this site [here](bibliography.html) (or as bibtex [here](todo)).
+We are curating a bibliography of relevant material cited throughout this site [here](bibliography.html) (or as bibtex [here](https://github.com/SpaceNet-CoP/spacenet-cop.github.io/raw/refs/heads/main/bibliography/references.bib)).
 
 </div>
 
