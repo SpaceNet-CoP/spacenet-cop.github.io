@@ -4,10 +4,6 @@ title: Home
 ---
 
 <div class="content-block" markdown="1">
-<span style="border:1px solid red;padding:5px;">This site is currently under active development. All content is subject to change.</span>
-</div>
-
-<div class="content-block" markdown="1">
 
 # The Short Story
 
@@ -16,10 +12,6 @@ Space-based infrastructure such as LEO satellite networks (LSNs) have emerged as
 Pushing the frontier beyond current commercial deployments requires navigating a much larger problem space, including a wide range of space mission planning constraints that are presently not familiar to the networking community.
 
 This website aims to provide a community-driven repository of these _outside intuitions_ that networking research must keep in mind when considering space-based infrastructure.
-
-</div>
-
-<div class="content-block" markdown="1">
 
 # Call for Contributions
 

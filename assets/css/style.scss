@@ -42,7 +42,7 @@ body {
 
 /* Drop justify on small screens */
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 680px) {
     div.content-block {
         text-align: left;
     }
@@ -52,14 +52,18 @@ body {
 
 #main_content {
     max-width: 100%;
-    padding: 0;
+    padding: 0 20px;
     margin: 0;
     text-align: center;
+    column-width: 660px;
+    column-gap: 20px;
+    column-count: 3;
 }
 
 .content-block {
     max-width: 640px;
-    padding: 20px 10px;
+    padding: 20px 0;
     margin: 0 auto;
     text-align: justify;
+    break-inside: avoid;
 }
