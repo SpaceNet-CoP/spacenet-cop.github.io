@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+/* Fonts */
+
 @font-face {
     font-family: 'Hyperlegible Sans';
     src: url('../fonts/HyperlegibleSans-Regular.woff2') format('woff2');
@@ -38,8 +40,26 @@ body {
     font-family: 'Hyperlegible Sans', Calibri, sans-serif;
 }
 
+/* Drop justify on small screens */
+
 @media screen and (max-width: 660px) {
-    body {
+    div.content-block {
         text-align: left;
     }
+}
+
+/* Layout */
+
+#main_content {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.content-block {
+    max-width: 640px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    text-align: justify;
 }

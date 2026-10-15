@@ -3,7 +3,11 @@ layout: default
 title: Home
 ---
 
+<div class="content-block" markdown="1">
 <span style="border:1px solid red;padding:5px;">This site is currently under active development. All content is subject to change.</span>
+</div>
+
+<div class="content-block" markdown="1">
 
 # The Short Story
 
@@ -12,6 +16,10 @@ Space-based infrastructure such as LEO satellite networks (LSNs) have emerged as
 Pushing the frontier beyond current commercial deployments requires navigating a much larger problem space, including a wide range of space mission planning constraints that are presently not familiar to the networking community.
 
 This website aims to provide a community-driven repository of these _outside intuitions_ that networking research must keep in mind when considering space-based infrastructure.
+
+</div>
+
+<div class="content-block" markdown="1">
 
 # Call for Contributions
 
@@ -24,7 +32,9 @@ A non-exhaustive list of thing you should consider contributing:
 
 * Citations to your papers, other relevant papers you think are missing, and other relevant and useful resources across the web.
 
+</div>
 
+<div class="content-block" markdown="1">
 
 # The Long Story
 
@@ -39,6 +49,10 @@ This creates a inherent methodological risk that proposed systems may satisfy ne
 Concretely, we assemble the following principles that researchers should strive to abide by---regardless of what assumptions or simulations are utilized---in order to maintain alignment with the reality of space operations.
 
 By assembling these principles as an open-source website, we aim to encourage on-going debate and refinement as well as continuous updates as space technologies progresses.
+
+</div>
+
+<div class="content-block" markdown="1">
 
 
 # The Principles
@@ -70,3 +84,5 @@ We should be sure that satellites are where we want them to be when we want them
 [**Thermal Dynamics**](principles/thermal.html)
 <br/>
 Thinking about temperature in the near vacuum of space requires going beyond Earth-based intuitions about "hot" and "cold".
+
+</div>
