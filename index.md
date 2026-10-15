@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<div class="content-container" markdown="1">
+
 <div class="content-block" markdown="1">
 
 # The Short Story
@@ -16,7 +18,7 @@ This website aims to provide a community-driven repository of these _outside int
 # Call for Contributions
 
 This website is open-source and we encourage you to add your perspective and expertise by submitting [pull requests](https://github.com/SpaceNet-CoP/spacenet-cop.github.io/pulls) and [issues](https://github.com/SpaceNet-CoP/spacenet-cop.github.io/issues) or by joining discussion on existing threads.
-A non-exhaustive list of thing you should consider contributing:
+Things to consider contributing:
 
 * New "principles" that the community should consider.
 
@@ -78,3 +80,13 @@ We should be sure that satellites are where we want them to be when we want them
 Thinking about temperature in the near vacuum of space requires going beyond Earth-based intuitions about "hot" and "cold".
 
 </div>
+
+<div class="content-block" markdown="1">
+
+# The Bibliography
+
+We are curating a bibliography of relevant material cited throughout this site [here](bibliography.html) (or as bibtex [here](todo)).
+
+</div>
+
+</div> <!-- .content-container -->

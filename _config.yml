@@ -1,3 +1,15 @@
 title: SpaceNet CoP
 description: A Community-of-Practice for space networking.
 theme: jekyll-theme-slate
+
+plugins:
+ - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+
+  source: ./bibliography
+  bibliography: references.bib
+
+  relative: "/bibliography.html"
